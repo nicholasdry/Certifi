@@ -2,4 +2,10 @@
 
 Project devloped at Dragonhacks 2016 January 16-17, 2016.
 
-Created by: Nicholas Dry, Brandon Au, Jose Arguelles, Jesse Dinkin, Paul Kim
+Created by:
+
+  Jose Arguelles,
+  Brandon Au,
+  Jesse Dinkin,
+  Nicholas Dry,
+  Paul Kim,
