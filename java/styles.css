@@ -1,22 +1,55 @@
+/* quiz template styles */
+
+@font-face {
+      src: url('fonts/Amethyst.ttf');
+      font-family: title-font;
+}
+
 * {
       width: 100%;
-      padding: 0px;
-      background-color: #3498db;
+      margin: 0px;
+      background-color: #95a5a6;
 }
 
 h1 {
+      font-family: title-font;
+      position: fixed;
       text-align: center;
       font-size: 55px;
+      margin-bottom: 100px;
+      background-color: white;
+      padding: 50px;
+      box-shadow: 10px 10px 50px black;
 }
 
-nav {
-      text-align: center;
-      font-size: 20px;
-      margin-left: 15px;
-      margin-bottom: 50px;
+#content {
+      padding-top: 500px;
+}
+
+#nav {
+      font-size: 25px;
+      top: 300px;
+      margin-left: 30px;
+      position: fixed;
+      width: 100px;
+}
+
+#nav ul {
+      list-style: none;
+}
+
+#nav ul li a {
+      color: black;
+      text-decoration: none;
+}
+
+#nav ul li a:hover {
+      color: white;
+      text-decoration: underline;
 }
 
 form {
+      padding-top: 250px;
       width: 500px;
       margin-left: auto;
       margin-right: auto;
