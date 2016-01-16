@@ -17,6 +17,22 @@ h1 {
       text-align: center;
 }
 
+h2 {
+      text-align: center;
+      color: white;
+}
+
+h2 a {
+      text-decoration: none;
+      color: white;
+}
+
+h2 a:hover {
+      text-decoration: underline;
+}
+
+/* code for the background video */
+
 .fullscreen-bg {
       position: fixed;
       width: auto;
