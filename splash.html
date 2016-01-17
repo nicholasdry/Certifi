@@ -4,6 +4,16 @@
             <meta charset="utf-8">
             <title>CERTIFi</title>
             <link rel="stylesheet" type="text/css" href="splash.css">
+            <script>
+                  function checkPW() {
+                        if (document.getElementById('pw').value == 'test') {
+                              document.getElementById('pw').style.backgroundColor = 'green';
+                        }
+                  }
+                  function redirectToHome() {
+                        window.location = 'index.html';
+                  }
+            </script>
       </head>
       <body>
             <h1>CERTIFi</h1>
@@ -16,8 +26,11 @@
                   <img src="img/dragon.png" align="middle">
             </div>
 
-            <div id="link">
-                  <a href="index.html">Go to the Quizzes</a>
+            <div class="input">
+                  Username: <input type="text"><br>
+                  Password: <input type="password" id="pw" onchange="checkPW();"><br>
+                  <input type="submit" onclick="redirectToHome();">
             </div>
+
       </body>
 </html>
