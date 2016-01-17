@@ -19,5 +19,9 @@ function checkScore(){
 		score++;
 	}
 
-	alert("Your score is " + score + ". (5 is a perfect score)");
+	if (score > 3) {
+		alert("You scored higher than a 3!");
+	} else {
+		window.open("../certification.pdf", "_blank");
+	}
 }
