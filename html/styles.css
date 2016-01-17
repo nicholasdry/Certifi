@@ -74,7 +74,7 @@ input[type="submit"] {
 
 form {
       padding-top: 250px;
-      width: 500px;
+      width: 700px;
       margin-left: auto;
       margin-right: auto;
 }
@@ -84,6 +84,7 @@ form p {
       padding: 15px;
 }
 
-.MC{
-	
+img{
+	width: 400px;
+	height: 400px;
 }
