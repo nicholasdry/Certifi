@@ -23,9 +23,47 @@ h1 {
 }
 
 #content {
-      padding-top: 350px;
+      padding-top: 300px;
       text-align: center;
       font-size: 25px;
+}
+
+.input input[type="text"] {
+      font-size: 15px;
+      background-color: white;
+      padding: 10px;
+      border: solid 1px #dcdcdc;
+      transition: box-shadow 0.3s, border 0.3s;
+}
+
+.input input[type="text"]:focus,
+.input input[type="text"].focus {
+      border: solid 1px #707070;
+      box-shadow: 0 0 5px 1px #969696;
+}
+
+.input input[type="password"] {
+      font-size: 15px;
+      background-color: white;
+      padding: 10px;
+      border: solid 1px #dcdcdc;
+      transition: box-shadow 0.3s, border 0.3s;
+}
+
+.input input[type="password"]:focus,
+.input input[type="password"].focus {
+      border: solid 1px #707070;
+      box-shadow: 0 0 5px 1px #969696;
+}
+
+input[type="submit"] {
+      background-color: #555;
+      color: #fff;
+      border-radius: 10px;
+      width: 250px;
+      font-size: 25px;
+      margin-top: 15px;
+      text-align: center;
 }
 
 #nav {
@@ -52,7 +90,16 @@ h1 {
 
 form {
       padding-top: 250px;
-      width: 500px;
+      width: 700px;
       margin-left: auto;
       margin-right: auto;
+}
+
+form p {
+      font-size: 25px;
+      padding: 15px;
+}
+
+.MC{
+
 }

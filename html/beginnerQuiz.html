@@ -9,7 +9,7 @@
       </head>
       <body>
 
-            <h1>CERTIFi</h1>
+            <a href="../index.html"><h1>Certifi</h1></a>
 
             <div id="nav">
                   <ul>
@@ -24,27 +24,27 @@
             <form class="input">
                   <p>1. Bold the text "DragonHacks". </p> <!-- Answer: <b>DragonHacks</b> -->
 
-                        <input type="text" id="q1">
+                        <input type="text" id="q1" onchange="checkScore();">
 
                   <p>2. What tag would be used to add break lines?</p> <!-- Answer: <br> </br> -->
 
-                        <input type="text" id="q2">
+                        <input type="text" id="q2" onchange="checkScore();">
 
                   <p>3. What attribute would be added to the body tag to change the background color to gray?</p>
 				  <!-- Answer: bgcolor = "gray" -->
 
-                        <input type="text" id="q3">
+                        <input type="text" id="q3" onchange="checkScore();">
 
                   <p>4. What tag is used to add a horizontal rule?</p> <!-- <hr/> or <hr> -->
 
-                        <input type="text" id="q4">
+                        <input type="text" id="q4" onchange="checkScore();">
 
                   <p>5. Which header is larger, &#60h1&#62 or &#60h6&#62 </p>
 				  <!-- Answer: <h1> -->
 
                         <input type="text" id="q5">
 
-                 <input type="submit"  onClick = "checkScore()">
+                 <input type="submit"  onClick = "printOutPage();" onchange="checkScore();">
             </form>
 
            <!-- <script src="scripts.js"></script>-->
