@@ -47,5 +47,5 @@ function checkScore() {
 
       // make the other if-else statements for other questions
 
-     alert("Your score is " + score + ". (5 is a perfect score)");
+     //alert("Your score is " + score + ". (5 is a perfect score)");
 }
