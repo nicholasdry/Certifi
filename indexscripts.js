@@ -9,7 +9,7 @@ function showHTML() {
 }
 
 function showJS() {
-      document.getElementById('content').innerHTML = "<a href='js/beginnerQuiz.html'>Beginner</a><br><a href='js/intermediateQuiz.html'>Intermediate</a><br><a href='#'>Advanced</a>";
+      document.getElementById('content').innerHTML = "<a href='js/beginnerQuiz.html'>Beginner</a><br><a href='js/intermediateQuiz.html'>Intermediate</a><br><a href='js/advancedQuiz.html'>Advanced</a>";
 }
 
 function showCSS() {
