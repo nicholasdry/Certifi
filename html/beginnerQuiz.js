@@ -7,7 +7,7 @@ function checkScore(){
 	} else {
 		document.getElementById("q1").style.backgroundColor = 'red';
 	}
-	if(document.getElementById("q2").value.trim().toLowerCase() == "<br> </br>".toLowerCase()){
+	if(document.getElementById("q2").value.trim().toLowerCase() == "<br>" || document.getElementById("q2").value.trim().toLowerCase() == "</br>"){
 		document.getElementById("q2").style.backgroundColor = 'green';
 		score++;
 	} else {
