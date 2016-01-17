@@ -5,15 +5,12 @@ function checkScore(){
 		score++;
 	}
 	
-	if(document.getElementById("q2").value.trim().toLowerCase() == "<input type = \"radio\">"){
-		score++;
-	}
 	
 	if(document.getElementById("q3").value.trim().toLowerCase() == "../index.html"){
 		score++;
 	}
 	
-	if(document.getElementById("q4").value.trim() == "onClick = \"add()\""){
+	if(document.getElementById("q4").value.trim().toLowerCase() == "bgcolor = \"gray\""){
 		score++;
 	}
 	
@@ -24,6 +21,10 @@ function checkScore(){
 		score++;
 	}
 	
+	if(document.getElementById("q6").value.trim() == "onClick = \"add()\""){
+		score++;
+	}
 	
-	//alert("Your score is " + score + ". (5 is a perfect score)");
+	
+	alert("Your score is " + score + ". (5 is a perfect score)");
 }
