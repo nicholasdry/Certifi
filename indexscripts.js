@@ -1,7 +1,7 @@
 // index scripts
 
 function showJava() {
-      document.getElementById('content').innerHTML = "<a href='#'>Beginner</a><br><a href='#'>Intermediate</a><br><a href='#'>Advanced</a>";
+      document.getElementById('content').innerHTML = "<a href='html/beginnerQuiz.html'>Beginner</a><br><a href='#'>Intermediate</a><br><a href='#'>Advanced</a>";
 }
 
 function showHTML() {

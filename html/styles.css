@@ -1,14 +1,14 @@
 /* quiz template styles */
 
 @font-face {
-      src: url('fonts/Amethyst.ttf');
+      src: url('../fonts/Amethyst.ttf');
       font-family: title-font;
 }
 
 * {
       width: 100%;
       margin: 0px;
-      background-color: #95a5a6;
+      background-color: #E4F1FE;
 }
 
 h1 {
@@ -24,6 +24,30 @@ h1 {
 
 #content {
       padding-top: 500px;
+}
+
+.input input[type="text"] {
+      font-size: 15px;
+      background-color: white;
+      padding: 10px;
+      border: solid 1px #dcdcdc;
+      transition: box-shadow 0.3s, border 0.3s;
+}
+
+.input input[type="text"]:focus,
+.input input[type="text"].focus {
+      border: solid 1px #707070;
+      box-shadow: 0 0 5px 1px #969696;
+}
+
+input[type="submit"] {
+      background-color: #555;
+      color: #fff;
+      border-radius: 10px;
+      width: 250px;
+      font-size: 25px;
+      margin-top: 15px;
+      text-align: center;
 }
 
 #nav {
@@ -53,4 +77,9 @@ form {
       width: 500px;
       margin-left: auto;
       margin-right: auto;
+}
+
+form p {
+      font-size: 25px;
+      padding: 15px;
 }

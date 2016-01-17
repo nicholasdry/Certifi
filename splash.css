@@ -31,6 +31,21 @@ h2 a:hover {
       text-decoration: underline;
 }
 
+#link {
+      text-align: center;
+}
+
+a {
+      color: white;
+      font-size: 35px;
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: underline;
+      color: grey;
+}
+
 /* code for the background video */
 
 .fullscreen-bg {
