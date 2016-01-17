@@ -24,22 +24,31 @@
             </div>
 <form class = "input">
 
-	<p>1. Change the background color of a webpage to #5659AD</p>
+	<p>1. Change the background color of a webpage to #5659AD (Just give the code between braces)</p>
 	
-	<input type = "text" id = "q1"/>
+	<input type = "text" id = "q1" onchange = "checkScore()"/>
 	 
 	 <p>2. What selector would be used to modify the paragraph tag? </p>
 	 
-	 <input type = "text" id = "q2" />
+	 <input type = "text" id = "q2" onchange = "checkScore()"/>
 	 
-	 <p>3. Change the font of a paragraph tag to Arial.</p>
+	 <p>3. Change the font of a paragraph tag to Arial. (Just give the code between braces)</p>
 	 
-	 <textarea id = "q3" rows = "3"></textarea>
+	 <input type = "text" id = "q3" onchange = "checkScore()"></textarea>
+	 
+	 <p>4. How is a comment implemented in CSS?</p>
+	 
+	 <input type = "text" id = "q4" onchange = "checkScore()">
+	 
+	 <p>5. Modify the paragraph selector in CSS to bold the font. (Just give the code between braces)</p>
+	  
+	  <input type = "text" id = "q5" onchange = "checkScore()">
+	  
+	  
+	  <input type = "submit" onClick = "printOutPage()" onchange = "checkScore()">
 	
 
 
-
-	<input type = "submit" onClick = "checkScore()"/>
 
 </form>
 
