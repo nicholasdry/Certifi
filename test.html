@@ -1,0 +1,56 @@
+<HTML lang = "en">
+
+<head>
+	<meta charset = "UTF-8">
+	<title>Add Record Form</title>
+</head>
+
+<body>
+<?php
+require_once("db_const.php");
+if(!isset($_POST['submit'])){
+?>
+
+
+	<form action ="<?=$_SERVER['PHP_SELF']?>" method = "post">
+	First Name: <input type = "text" name = "firstname" id = "firstName" > <br/>
+	Last Name: <input type = "text" name = "lastname" id = "lastName"> <br/>
+	<input type = "submit" name = "Submit" value = "Register" /> <br/>
+	</form>
+<?php
+} else {
+	$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+	#check connection
+	if ($mysqli->connect_errno) {
+		echo "<p>MySQL error no {$mysqli->connect_errno} : {$mysqli->connect_error}</p>";
+		exit();
+	}
+	
+	$password	= $_POST['password'];
+	$first_name	= $_POST['first_name'];
+	$last_name	= $_POST['last_name'];
+	
+	$sql = "INSERT  INTO 'members' ('id', 'username', 'password', 'first_name', 'last_name')
+			VALUES (NULL, '{$password}', '{$first_name}', '{$last_name}')"; 
+	
+	if ($mysqli->query($sql)) {
+			//echo "New Record has id ".$mysqli->insert_id;
+			echo "<p>Registred successfully!</p>";
+		} else {
+			echo "<p>MySQL error no {$mysqli->errno} : {$mysqli->error}</p>";
+			exit();
+		}
+}
+		
+?>
+</body>
+
+
+
+
+
+
+
+
+
+</HTML>
