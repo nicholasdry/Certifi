@@ -5,13 +5,15 @@
 		<choice text="No."/>
 		<choice text="Yes, but I prefer pancakes."/>
 	</mc_item>
-	
-	<mc_item question="Why?" answer="2">
-		<choice text="Because."/>
-		<choice text="Why not?"/>
-		<choice text="Who cares?"/>
+
+	<mc_item image="waffles.jpg" question="Do you like waffles?" answer="0">
+		<choice text="Yes."/>
+		<choice text="No."/>
+		<choice text="Yes, but I prefer pancakes."/>
 	</mc_item>
 	
 	<text_item question="Who let the dogs out?" answer="Toby"/>
+	
+	<text_item image="dogs.jpg" question="Who let the dogs out?" answer="Toby"/>
 	
 </quiz>
