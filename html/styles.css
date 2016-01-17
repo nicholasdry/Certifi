@@ -74,7 +74,7 @@ input[type="submit"] {
 
 form {
       padding-top: 250px;
-      width: 500px;
+      width: 700px;
       margin-left: auto;
       margin-right: auto;
 }
@@ -84,6 +84,12 @@ form p {
       padding: 15px;
 }
 
+<<<<<<< HEAD
+img{
+	width: 400px;
+	height: 400px;
+=======
 .MC{
-	
+
+>>>>>>> ea1a47d29415549f91f38d3d90921bbeb1fde854
 }
