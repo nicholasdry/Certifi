@@ -14,6 +14,6 @@
 	
 	<text_item question="Who let the dogs out?" answer="Toby"/>
 	
-	<text_item image="dogs.jpg" question="Who let the dogs out?" answer="Toby"/>
+	<tf_item question="Java is object oriented." answer="true"/>
 	
 </quiz>
